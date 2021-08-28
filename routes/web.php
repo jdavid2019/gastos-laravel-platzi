@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 
 Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index');
+
+Route::resource('/expense_reports','App\Http\Controllers\ExpenseReportController');
